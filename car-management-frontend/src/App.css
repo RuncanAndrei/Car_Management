@@ -1,6 +1,12 @@
-
+body {
+  background: linear-gradient(to right, #1e3a8a, #2563eb); /* Gradient albastru */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -12,6 +18,8 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
